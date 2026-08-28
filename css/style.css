@@ -3,14 +3,29 @@
     src: url('../font/PKMN\ RBYGSC.ttf');
 }
 
+:root {
+    --page-bg: #f3f3f3;
+    --card-bg: #ffffff;
+    --card-border: #d9d9d9;
+    --header-red: #d62828;
+    --text-dark: #1f1f1f;
+    --type-size: 24px;
+    --row-gap: 8px;
+    --card-padding: 10px 16px;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background: var(--page-bg);
+    color: var(--text-dark);
+    font-family: 'PokemonGB', monospace;
+    image-rendering: pixelated;
 }
 
 header {
     color: white;
-    background-color: red;
+    background-color: var(--header-red);
     font-family: 'PokemonGB', monospace;
     image-rendering: pixelated;
     display: flex;
@@ -20,42 +35,55 @@ header {
 .list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  max-width: 500px;
-  margin: 0 auto;
+  gap: var(--row-gap);
+  max-width: 560px;
+  margin: 20px auto;
+  padding: 0 12px;
 }
 
 .poke-line {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 60px 54px minmax(120px, 1fr) auto;
   align-items: center;
-  gap: 16px;
-  padding: 10px 16px;
-  border: 1px solid #ddd;
+  gap: 14px;
+  padding: var(--card-padding);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--card-bg);
+  box-sizing: border-box;
 }
 
 .poke-number {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .poke-img {
-  width: 110%;
+  width: 100%;
+  max-width: 48px;
   object-fit: contain;
   justify-self: center;
 }
 
 .poke-name {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .poke-type {
-  width: 40%;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  gap: 6px;
+  min-width: 56px;
+}
+
+.poke-type img {
+  width: var(--type-size);
+  height: var(--type-size);
+  object-fit: contain;
+  display: block;
 }
