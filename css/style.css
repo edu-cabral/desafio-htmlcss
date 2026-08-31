@@ -3,6 +3,19 @@
   src: url('../font/PKMN\ RBYGSC.ttf');
 }
 
+@media (max-width: 480px) {
+  :root {
+    --type-size: 18px;
+    --row-gap: 6px;
+    --card-padding: 8px 10px;
+    --nav-font: x-small;
+  }
+
+  header h1 {
+    font-size: larger;
+  }
+}
+
 :root {
   --page-bg: #f3f3f3;
   --card-bg: #ffffff;
@@ -12,6 +25,7 @@
   --type-size: 24px;
   --row-gap: 8px;
   --card-padding: 10px 16px;
+  --nav-font: smaller;
 }
 
 body {
@@ -30,6 +44,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 header a {
@@ -39,11 +55,13 @@ header a {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+
 }
 
 nav a {
-  font-size: smaller;
+  font-size: var(--nav-font);
 }
 
 footer {
@@ -59,43 +77,41 @@ footer {
   flex-direction: column;
   gap: var(--row-gap);
   max-width: 560px;
-  margin: 20px auto;
-  padding: 0 12px;
+  margin: 12px auto;
+  padding: 0 8px;
 }
 
 .poke-line {
   display: grid;
-  grid-template-columns: 60px 54px minmax(120px, 1fr) auto;
+  grid-template-columns: 44px 40px 1fr auto;
   align-items: center;
-  gap: 14px;
+  gap: 8px;
   padding: var(--card-padding);
   border: 1px solid var(--card-border);
   border-radius: 10px;
   background-color: var(--card-bg);
   box-sizing: border-box;
-  transition: 0.2s;
+  transition: 0.15s, box-shadow 0.15s;
 }
 
-.poke-line:hover {
-  transform: scale(115%);
-  cursor: pointer;
-}
-
-.poke-number {
-  font-weight: bold;
-  font-size: 0.9rem;
+@media (hover: hover) {
+  .poke-line:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
 }
 
 .poke-img {
   width: 100%;
-  max-width: 48px;
+  max-width: 36px;
   object-fit: contain;
   justify-self: center;
 }
 
+.poke-number,
 .poke-name {
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -105,8 +121,15 @@ footer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 6px;
-  min-width: 56px;
+  gap: 4px;
+  min-width: 40px;
+}
+
+@media (max-width: 340px) {
+  .poke-type img {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .poke-type img {
