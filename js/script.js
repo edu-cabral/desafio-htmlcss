@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('../data/dex.json')
+    fetch('./data/dex.json')
         .then(response => response.json())
         .then(data => {
             const list = document.getElementById('list');
