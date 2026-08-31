@@ -1,0 +1,1061 @@
+{
+  "pokemon_entries": [
+    {
+      "entry_number": 1,
+      "pokemon_species": {
+        "name": "Bulbasaur",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 2,
+      "pokemon_species": {
+        "name": "Ivysaur",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 3,
+      "pokemon_species": {
+        "name": "Venusaur",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 4,
+      "pokemon_species": {
+        "name": "Charmander",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 5,
+      "pokemon_species": {
+        "name": "Charmeleon",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 6,
+      "pokemon_species": {
+        "name": "Charizard",
+        "type": ["fire", "flying"]
+      }
+    },
+    {
+      "entry_number": 7,
+      "pokemon_species": {
+        "name": "Squirtle",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 8,
+      "pokemon_species": {
+        "name": "Wartortle",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 9,
+      "pokemon_species": {
+        "name": "Blastoise",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 10,
+      "pokemon_species": {
+        "name": "Caterpie",
+        "type": ["bug"]
+      }
+    },
+    {
+      "entry_number": 11,
+      "pokemon_species": {
+        "name": "Metapod",
+        "type": ["bug"]
+      }
+    },
+    {
+      "entry_number": 12,
+      "pokemon_species": {
+        "name": "Butterfree",
+        "type": ["bug", "flying"]
+      }
+    },
+    {
+      "entry_number": 13,
+      "pokemon_species": {
+        "name": "Weedle",
+        "type": ["bug", "poison"]
+      }
+    },
+    {
+      "entry_number": 14,
+      "pokemon_species": {
+        "name": "Kakuna",
+        "type": ["bug", "poison"]
+      }
+    },
+    {
+      "entry_number": 15,
+      "pokemon_species": {
+        "name": "Beedrill",
+        "type": ["bug", "poison"]
+      }
+    },
+    {
+      "entry_number": 16,
+      "pokemon_species": {
+        "name": "Pidgey",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 17,
+      "pokemon_species": {
+        "name": "Pidgeotto",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 18,
+      "pokemon_species": {
+        "name": "Pidgeot",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 19,
+      "pokemon_species": {
+        "name": "Rattata",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 20,
+      "pokemon_species": {
+        "name": "Raticate",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 21,
+      "pokemon_species": {
+        "name": "Spearow",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 22,
+      "pokemon_species": {
+        "name": "Fearow",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 23,
+      "pokemon_species": {
+        "name": "Ekans",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 24,
+      "pokemon_species": {
+        "name": "Arbok",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 25,
+      "pokemon_species": {
+        "name": "Pikachu",
+        "type": ["electric"]
+      }
+    },
+    {
+      "entry_number": 26,
+      "pokemon_species": {
+        "name": "Raichu",
+        "type": ["electric"]
+      }
+    },
+    {
+      "entry_number": 27,
+      "pokemon_species": {
+        "name": "Sandshrew",
+        "type": ["ground"]
+      }
+    },
+    {
+      "entry_number": 28,
+      "pokemon_species": {
+        "name": "Sandslash",
+        "type": ["ground"]
+      }
+    },
+    {
+      "entry_number": 29,
+      "pokemon_species": {
+        "name": "Nidoran (Female)",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 30,
+      "pokemon_species": {
+        "name": "Nidorina",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 31,
+      "pokemon_species": {
+        "name": "Nidoqueen",
+        "type": ["poison", "ground"]
+      }
+    },
+    {
+      "entry_number": 32,
+      "pokemon_species": {
+        "name": "Nidoran (Male)",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 33,
+      "pokemon_species": {
+        "name": "Nidorino",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 34,
+      "pokemon_species": {
+        "name": "Nidoking",
+        "type": ["poison", "ground"]
+      }
+    },
+    {
+      "entry_number": 35,
+      "pokemon_species": {
+        "name": "Clefairy",
+        "type": ["fairy"]
+      }
+    },
+    {
+      "entry_number": 36,
+      "pokemon_species": {
+        "name": "Clefable",
+        "type": ["fairy"]
+      }
+    },
+    {
+      "entry_number": 37,
+      "pokemon_species": {
+        "name": "Vulpix",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 38,
+      "pokemon_species": {
+        "name": "Ninetales",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 39,
+      "pokemon_species": {
+        "name": "Jigglypuff",
+        "type": ["normal", "fairy"]
+      }
+    },
+    {
+      "entry_number": 40,
+      "pokemon_species": {
+        "name": "Wigglytuff",
+        "type": ["normal", "fairy"]
+      }
+    },
+    {
+      "entry_number": 41,
+      "pokemon_species": {
+        "name": "Zubat",
+        "type": ["poison", "flying"]
+      }
+    },
+    {
+      "entry_number": 42,
+      "pokemon_species": {
+        "name": "Golbat",
+        "type": ["poison", "flying"]
+      }
+    },
+    {
+      "entry_number": 43,
+      "pokemon_species": {
+        "name": "Oddish",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 44,
+      "pokemon_species": {
+        "name": "Gloom",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 45,
+      "pokemon_species": {
+        "name": "Vileplume",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 46,
+      "pokemon_species": {
+        "name": "Paras",
+        "type": ["bug", "grass"]
+      }
+    },
+    {
+      "entry_number": 47,
+      "pokemon_species": {
+        "name": "Parasect",
+        "type": ["bug", "grass"]
+      }
+    },
+    {
+      "entry_number": 48,
+      "pokemon_species": {
+        "name": "Venonat",
+        "type": ["bug", "poison"]
+      }
+    },
+    {
+      "entry_number": 49,
+      "pokemon_species": {
+        "name": "Venomoth",
+        "type": ["bug", "poison"]
+      }
+    },
+    {
+      "entry_number": 50,
+      "pokemon_species": {
+        "name": "Diglett",
+        "type": ["ground"]
+      }
+    },
+    {
+      "entry_number": 51,
+      "pokemon_species": {
+        "name": "Dugtrio",
+        "type": ["ground"]
+      }
+    },
+    {
+      "entry_number": 52,
+      "pokemon_species": {
+        "name": "Meowth",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 53,
+      "pokemon_species": {
+        "name": "Persian",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 54,
+      "pokemon_species": {
+        "name": "Psyduck",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 55,
+      "pokemon_species": {
+        "name": "Golduck",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 56,
+      "pokemon_species": {
+        "name": "Mankey",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 57,
+      "pokemon_species": {
+        "name": "Primeape",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 58,
+      "pokemon_species": {
+        "name": "Growlithe",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 59,
+      "pokemon_species": {
+        "name": "Arcanine",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 60,
+      "pokemon_species": {
+        "name": "Poliwag",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 61,
+      "pokemon_species": {
+        "name": "Poliwhirl",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 62,
+      "pokemon_species": {
+        "name": "Poliwrath",
+        "type": ["water", "fighting"]
+      }
+    },
+    {
+      "entry_number": 63,
+      "pokemon_species": {
+        "name": "Abra",
+        "type": ["psychic"]
+      }
+    },
+    {
+      "entry_number": 64,
+      "pokemon_species": {
+        "name": "Kadabra",
+        "type": ["psychic"]
+      }
+    },
+    {
+      "entry_number": 65,
+      "pokemon_species": {
+        "name": "Alakazam",
+        "type": ["psychic"]
+      }
+    },
+    {
+      "entry_number": 66,
+      "pokemon_species": {
+        "name": "Machop",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 67,
+      "pokemon_species": {
+        "name": "Machoke",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 68,
+      "pokemon_species": {
+        "name": "Machamp",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 69,
+      "pokemon_species": {
+        "name": "Bellsprout",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 70,
+      "pokemon_species": {
+        "name": "Weepinbell",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 71,
+      "pokemon_species": {
+        "name": "Victreebel",
+        "type": ["grass", "poison"]
+      }
+    },
+    {
+      "entry_number": 72,
+      "pokemon_species": {
+        "name": "Tentacool",
+        "type": ["water", "poison"]
+      }
+    },
+    {
+      "entry_number": 73,
+      "pokemon_species": {
+        "name": "Tentacruel",
+        "type": ["water", "poison"]
+      }
+    },
+    {
+      "entry_number": 74,
+      "pokemon_species": {
+        "name": "Geodude",
+        "type": ["rock", "ground"]
+      }
+    },
+    {
+      "entry_number": 75,
+      "pokemon_species": {
+        "name": "Graveler",
+        "type": ["rock", "ground"]
+      }
+    },
+    {
+      "entry_number": 76,
+      "pokemon_species": {
+        "name": "Golem",
+        "type": ["rock", "ground"]
+      }
+    },
+    {
+      "entry_number": 77,
+      "pokemon_species": {
+        "name": "Ponyta",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 78,
+      "pokemon_species": {
+        "name": "Rapidash",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 79,
+      "pokemon_species": {
+        "name": "Slowpoke",
+        "type": ["water", "psychic"]
+      }
+    },
+    {
+      "entry_number": 80,
+      "pokemon_species": {
+        "name": "Slowbro",
+        "type": ["water", "psychic"]
+      }
+    },
+    {
+      "entry_number": 81,
+      "pokemon_species": {
+        "name": "Magnemite",
+        "type": ["electric", "steel"]
+      }
+    },
+    {
+      "entry_number": 82,
+      "pokemon_species": {
+        "name": "Magneton",
+        "type": ["electric", "steel"]
+      }
+    },
+    {
+      "entry_number": 83,
+      "pokemon_species": {
+        "name": "Farfetch'd",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 84,
+      "pokemon_species": {
+        "name": "Doduo",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 85,
+      "pokemon_species": {
+        "name": "Dodrio",
+        "type": ["normal", "flying"]
+      }
+    },
+    {
+      "entry_number": 86,
+      "pokemon_species": {
+        "name": "Seel",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 87,
+      "pokemon_species": {
+        "name": "Dewgong",
+        "type": ["water", "ice"]
+      }
+    },
+    {
+      "entry_number": 88,
+      "pokemon_species": {
+        "name": "Grimer",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 89,
+      "pokemon_species": {
+        "name": "Muk",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 90,
+      "pokemon_species": {
+        "name": "Shellder",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 91,
+      "pokemon_species": {
+        "name": "Cloyster",
+        "type": ["water", "ice"]
+      }
+    },
+    {
+      "entry_number": 92,
+      "pokemon_species": {
+        "name": "Gastly",
+        "type": ["ghost", "poison"]
+      }
+    },
+    {
+      "entry_number": 93,
+      "pokemon_species": {
+        "name": "Haunter",
+        "type": ["ghost", "poison"]
+      }
+    },
+    {
+      "entry_number": 94,
+      "pokemon_species": {
+        "name": "Gengar",
+        "type": ["ghost", "poison"]
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokemon_species": {
+        "name": "Onix",
+        "type": ["rock", "ground"]
+      }
+    },
+    {
+      "entry_number": 96,
+      "pokemon_species": {
+        "name": "Drowzee",
+        "type": ["psychic"]
+      }
+    },
+    {
+      "entry_number": 97,
+      "pokemon_species": {
+        "name": "Hypno",
+        "type": ["psychic"]
+      }
+    },
+    {
+      "entry_number": 98,
+      "pokemon_species": {
+        "name": "Krabby",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 99,
+      "pokemon_species": {
+        "name": "Kingler",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 100,
+      "pokemon_species": {
+        "name": "Voltorb",
+        "type": ["electric"]
+      }
+    },
+    {
+      "entry_number": 101,
+      "pokemon_species": {
+        "name": "Electrode",
+        "type": ["electric"]
+      }
+    },
+    {
+      "entry_number": 102,
+      "pokemon_species": {
+        "name": "Exeggcute",
+        "type": ["grass", "psychic"]
+      }
+    },
+    {
+      "entry_number": 103,
+      "pokemon_species": {
+        "name": "Exeggutor",
+        "type": ["grass", "psychic"]
+      }
+    },
+    {
+      "entry_number": 104,
+      "pokemon_species": {
+        "name": "Cubone",
+        "type": ["ground"]
+      }
+    },
+    {
+      "entry_number": 105,
+      "pokemon_species": {
+        "name": "Marowak",
+        "type": ["ground"]
+      }
+    },
+    {
+      "entry_number": 106,
+      "pokemon_species": {
+        "name": "Hitmonlee",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 107,
+      "pokemon_species": {
+        "name": "Hitmonchan",
+        "type": ["fighting"]
+      }
+    },
+    {
+      "entry_number": 108,
+      "pokemon_species": {
+        "name": "Lickitung",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 109,
+      "pokemon_species": {
+        "name": "Koffing",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokemon_species": {
+        "name": "Weezing",
+        "type": ["poison"]
+      }
+    },
+    {
+      "entry_number": 111,
+      "pokemon_species": {
+        "name": "Rhyhorn",
+        "type": ["ground", "rock"]
+      }
+    },
+    {
+      "entry_number": 112,
+      "pokemon_species": {
+        "name": "Rhydon",
+        "type": ["ground", "rock"]
+      }
+    },
+    {
+      "entry_number": 113,
+      "pokemon_species": {
+        "name": "Chansey",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 114,
+      "pokemon_species": {
+        "name": "Tangela",
+        "type": ["grass"]
+      }
+    },
+    {
+      "entry_number": 115,
+      "pokemon_species": {
+        "name": "Kangaskhan",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 116,
+      "pokemon_species": {
+        "name": "Horsea",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 117,
+      "pokemon_species": {
+        "name": "Seadra",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 118,
+      "pokemon_species": {
+        "name": "Goldeen",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 119,
+      "pokemon_species": {
+        "name": "Seaking",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 120,
+      "pokemon_species": {
+        "name": "Staryu",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 121,
+      "pokemon_species": {
+        "name": "Starmie",
+        "type": ["water", "psychic"]
+      }
+    },
+    {
+      "entry_number": 122,
+      "pokemon_species": {
+        "name": "Mr. Mime",
+        "type": ["psychic", "fairy"]
+      }
+    },
+    {
+      "entry_number": 123,
+      "pokemon_species": {
+        "name": "Scyther",
+        "type": ["bug", "flying"]
+      }
+    },
+    {
+      "entry_number": 124,
+      "pokemon_species": {
+        "name": "Jynx",
+        "type": ["ice", "psychic"]
+      }
+    },
+    {
+      "entry_number": 125,
+      "pokemon_species": {
+        "name": "Electabuzz",
+        "type": ["electric"]
+      }
+    },
+    {
+      "entry_number": 126,
+      "pokemon_species": {
+        "name": "Magmar",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 127,
+      "pokemon_species": {
+        "name": "Pinsir",
+        "type": ["bug"]
+      }
+    },
+    {
+      "entry_number": 128,
+      "pokemon_species": {
+        "name": "Tauros",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 129,
+      "pokemon_species": {
+        "name": "Magikarp",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 130,
+      "pokemon_species": {
+        "name": "Gyarados",
+        "type": ["water", "flying"]
+      }
+    },
+    {
+      "entry_number": 131,
+      "pokemon_species": {
+        "name": "Lapras",
+        "type": ["water", "ice"]
+      }
+    },
+    {
+      "entry_number": 132,
+      "pokemon_species": {
+        "name": "Ditto",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 133,
+      "pokemon_species": {
+        "name": "Eevee",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 134,
+      "pokemon_species": {
+        "name": "Vaporeon",
+        "type": ["water"]
+      }
+    },
+    {
+      "entry_number": 135,
+      "pokemon_species": {
+        "name": "Jolteon",
+        "type": ["electric"]
+      }
+    },
+    {
+      "entry_number": 136,
+      "pokemon_species": {
+        "name": "Flareon",
+        "type": ["fire"]
+      }
+    },
+    {
+      "entry_number": 137,
+      "pokemon_species": {
+        "name": "Porygon",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 138,
+      "pokemon_species": {
+        "name": "Omanyte",
+        "type": ["rock", "water"]
+      }
+    },
+    {
+      "entry_number": 139,
+      "pokemon_species": {
+        "name": "Omastar",
+        "type": ["rock", "water"]
+      }
+    },
+    {
+      "entry_number": 140,
+      "pokemon_species": {
+        "name": "Kabuto",
+        "type": ["rock", "water"]
+      }
+    },
+    {
+      "entry_number": 141,
+      "pokemon_species": {
+        "name": "Kabutops",
+        "type": ["rock", "water"]
+      }
+    },
+    {
+      "entry_number": 142,
+      "pokemon_species": {
+        "name": "Aerodactyl",
+        "type": ["rock", "flying"]
+      }
+    },
+    {
+      "entry_number": 143,
+      "pokemon_species": {
+        "name": "Snorlax",
+        "type": ["normal"]
+      }
+    },
+    {
+      "entry_number": 144,
+      "pokemon_species": {
+        "name": "Articuno",
+        "type": ["ice", "flying"]
+      }
+    },
+    {
+      "entry_number": 145,
+      "pokemon_species": {
+        "name": "Zapdos",
+        "type": ["electric", "flying"]
+      }
+    },
+    {
+      "entry_number": 146,
+      "pokemon_species": {
+        "name": "Moltres",
+        "type": ["fire", "flying"]
+      }
+    },
+    {
+      "entry_number": 147,
+      "pokemon_species": {
+        "name": "Dratini",
+        "type": ["dragon"]
+      }
+    },
+    {
+      "entry_number": 148,
+      "pokemon_species": {
+        "name": "Dragonair",
+        "type": ["dragon"]
+      }
+    },
+    {
+      "entry_number": 149,
+      "pokemon_species": {
+        "name": "Dragonite",
+        "type": ["dragon", "flying"]
+      }
+    },
+    {
+      "entry_number": 150,
+      "pokemon_species": {
+        "name": "Mewtwo",
+        "type": ["psychic"]
+      }
+    },
+    {
+      "entry_number": 151,
+      "pokemon_species": {
+        "name": "Mew",
+        "type": ["psychic"]
+      }
+    }
+  ]
+}
