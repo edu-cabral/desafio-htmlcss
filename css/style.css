@@ -3,62 +3,6 @@
   src: url('../font/PKMN\ RBYGSC.ttf');
 }
 
-@media (max-width: 480px) {
-  :root {
-    --type-size: 18px;
-    --row-gap: 6px;
-    --card-padding: 8px 10px;
-    --grid-columns-line: 44px 40px 1fr auto;
-    --nav-font: x-small;
-    --chart-columns-line: 1fr;
-  }
-
-  header h1 {
-    font-size: larger;
-  }
-
-  .type-chart {
-    display: grid;
-    gap: 16px;
-    padding: 0 8px;
-  }
-
-  .type {
-    grid-template-columns: 1fr;
-    justify-items: center;
-    text-align: center;
-    gap: 8px;
-  }
-
-  .type-icon img {
-    width: 56px;
-    height: 56px;
-  }
-
-  .type-name {
-    font-size: 0.95rem;
-  }
-
-  .interactions {
-    width: 100%;
-    font-size: 0.6rem;
-  }
-
-  .interaction-label {
-    justify-content: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .interaction-label p {
-    font-size: 0.6rem;
-  }
-
-  .interaction-label img {
-    width: 20px;
-    height: 20px;
-  }
-}
-
 :root {
   --page-bg: #f3f3f3;
   --card-bg: #ffffff;
@@ -307,4 +251,60 @@ footer {
   display: flex;
   flex-direction: row;
   object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  :root {
+    --type-size: 18px;
+    --row-gap: 6px;
+    --card-padding: 8px 10px;
+    --grid-columns-line: 44px 40px 1fr auto;
+    --nav-font: x-small;
+    --chart-columns-line: 1fr;
+  }
+
+  header h1 {
+    font-size: larger;
+  }
+
+  .type-chart {
+    display: grid;
+    gap: 16px;
+    padding: 0 8px;
+  }
+
+  .type {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .type-icon img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .type-name {
+    font-size: 0.95rem;
+  }
+
+  .interactions {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+
+  .interaction-label {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .interaction-label p {
+    font-size: 0.6rem;
+  }
+
+  .interaction-label img {
+    width: 20px;
+    height: 20px;
+  }
 }
