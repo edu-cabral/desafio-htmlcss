@@ -1,5 +1,46 @@
 document.addEventListener('DOMContentLoaded', fetchPokemonDetail);
 
+async function fetchBaseStats(id) {
+    const statContainer = document.getElementById('stat-container');
+
+    try {
+        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`);
+        if (!res.ok) throw new Error('Falha ao buscar stats');
+
+        const data = await res.json();
+
+        // Mapeia os nomes técnicos da API pra nomes em PT-BR
+        const statNames = {
+            'hp': 'HP',
+            'attack': 'Ataque',
+            'defense': 'Defesa',
+            'special-attack': 'Atq. Especial',
+            'special-defense': 'Def. Especial',
+            'speed': 'Velocidade'
+        };
+
+        statContainer.innerHTML = data.stats.map(s => {
+            const label = statNames[s.stat.name] || s.stat.name;
+            const value = s.base_stat;
+            // Base stats geralmente vão de 1 a ~255; usamos 255 como teto pra barra
+            const percent = Math.min((value / 255) * 100, 100);
+
+            return `
+                <div class="stat-row">
+                    <span class="stat-label">${label}</span>
+                    <span class="stat-value">${value}</span>
+                    <div class="stat-bar-bg">
+                        <div class="stat-bar-fill" style="width: ${percent}%;"></div>
+                    </div>
+                </div>`;
+        }).join('');
+
+    } catch (error) {
+        console.error("Erro ao carregar stats:", error);
+        statContainer.innerText = "Não foi possível carregar os stats.";
+    }
+}
+
 async function fetchPokemonDetail() {
     const container = document.getElementById('dex-container');
     const loadingDiv = document.getElementById('loading');
@@ -60,6 +101,8 @@ async function fetchPokemonDetail() {
         `;
 
         container.appendChild(card);
+
+        fetchBaseStats(id);
 
     } catch (error) {
         console.error("Erro ao carregar detalhes do Pokémon:", error);
