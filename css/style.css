@@ -280,12 +280,12 @@ footer {
     gap: 8px;
   }
 
-  .type-icon img {
+  .type-icon-name img {
     width: 56px;
     height: 56px;
   }
 
-  .type-name {
+  .type-icon-name {
     font-size: 0.95rem;
   }
 
