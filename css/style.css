@@ -8,11 +8,54 @@
     --type-size: 18px;
     --row-gap: 6px;
     --card-padding: 8px 10px;
+    --grid-columns-line: 44px 40px 1fr auto;
     --nav-font: x-small;
+    --chart-columns-line: 1fr;
   }
 
   header h1 {
     font-size: larger;
+  }
+
+  .type-chart {
+    display: grid;
+    gap: 16px;
+    padding: 0 8px;
+  }
+
+  .type {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .type-icon img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .type-name {
+    font-size: 0.95rem;
+  }
+
+  .interactions {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+
+  .interaction-label {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .interaction-label p {
+    font-size: 0.6rem;
+  }
+
+  .interaction-label img {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -25,7 +68,9 @@
   --type-size: 24px;
   --row-gap: 8px;
   --card-padding: 10px 16px;
-  --nav-font: smaller;
+  --grid-columns-line: 60px 54px 1fr auto;
+  --nav-font: x-small;
+  --chart-columns-line: repeat(2, minmax(280px, 1fr));
 }
 
 body {
@@ -35,6 +80,7 @@ body {
   color: var(--text-dark);
   font-family: 'PokemonGB', monospace;
   image-rendering: pixelated;
+  max-width: 100%;
 }
 
 header {
@@ -56,12 +102,15 @@ header a {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-
+  gap: 12px;
 }
 
 nav a {
   font-size: var(--nav-font);
+}
+
+main {
+  margin: 20px;
 }
 
 footer {
@@ -70,6 +119,8 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: xx-small;
+  bottom: 0;
+  scroll-behavior: auto;
 }
 
 #list {
@@ -77,13 +128,13 @@ footer {
   flex-direction: column;
   gap: var(--row-gap);
   max-width: 560px;
-  margin: 12px auto;
-  padding: 0 8px;
+  margin: 20px auto;
+  padding: 0 12px;
 }
 
 .poke-line {
   display: grid;
-  grid-template-columns: 44px 40px 1fr auto;
+  grid-template-columns: var(--grid-columns-line);
   align-items: center;
   gap: 8px;
   padding: var(--card-padding);
@@ -92,6 +143,8 @@ footer {
   background-color: var(--card-bg);
   box-sizing: border-box;
   transition: 0.15s, box-shadow 0.15s;
+  text-decoration: none;
+  color: var(--text-dark);
 }
 
 @media (hover: hover) {
@@ -103,7 +156,7 @@ footer {
 
 .poke-img {
   width: 100%;
-  max-width: 36px;
+  max-width: 48px;
   object-fit: contain;
   justify-self: center;
 }
@@ -137,4 +190,121 @@ footer {
   height: var(--type-size);
   object-fit: contain;
   display: block;
+}
+
+#o-que-e {
+  display: grid;
+  grid-template-columns: var(--chart-columns-line);
+  padding: var(--card-padding);
+  border: 1px solid var(--card-border);
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.text-img img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.type-chart {
+  display: grid;
+  grid-template-columns: var(--chart-columns-line);
+  gap: 24px;
+  margin: 20px auto;
+  padding: 0 12px;
+  max-width: 1400px;
+}
+
+.type-chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.type {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+}
+
+.type-icon-name img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
+}
+
+.type-icon-name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 8px;
+}
+
+.interactions {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.6rem;
+  min-width: 0;
+  justify-content: flex-start;
+}
+
+.interaction-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.interaction-label > p {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.interaction-label img {
+  width: var(--type-size);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.dex-card {
+  width: 80%;
+  margin: 20px auto;
+  padding: var(--card-padding);
+  border: 1px solid var(--card-border);
+  background-color: var(--card-bg);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.pokemon-image {
+  width: 100%;
+  max-width: 250px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.pokemon-type {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
 }
