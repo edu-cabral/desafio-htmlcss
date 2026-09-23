@@ -24,3 +24,56 @@ function createPokeLine(entry) {
             <span class="poke-type">${types}</span>
         </a>`;
 }
+
+const form = document.getElementById('form');
+const modal = document.getElementById('modalRelatar');
+
+form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    return alert('Obrigado pela sua contibuição!');
+});
+
+const pesquisa = document.getElementById('pesquisa');
+const btnPesquisar = document.getElementById('btnPesquisa');
+
+function realizarPesquisa() {
+    const texto = pesquisa.value.toLowerCase().trim();
+
+    if (texto === '') {
+        return;
+    }
+
+    const cards = document.querySelectorAll('.poke-line');
+    let primeiroEncontrado = null;
+
+    cards.forEach(function (card) {
+        const nome = card.querySelector('.poke-name').textContent.toLowerCase();
+        const numero = card.id; // "1", "2", "25", etc.
+        const numeroFormatado = numero.padStart(3, '0'); // "001", "002", "025"
+
+        const encontrou =
+            nome.includes(texto) ||
+            numero === texto ||
+            numeroFormatado.includes(texto);
+
+        if (encontrou && !primeiroEncontrado) {
+            primeiroEncontrado = card;
+        }
+    });
+
+    if (primeiroEncontrado) {
+        primeiroEncontrado.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+        });
+    }
+}
+
+btnPesquisar.addEventListener('click', realizarPesquisa);
+
+pesquisa.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+        realizarPesquisa();
+    }
+});

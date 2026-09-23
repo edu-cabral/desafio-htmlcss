@@ -20,8 +20,22 @@ async function fetchBaseStats(id) {
         };
 
         statContainer.innerHTML = data.stats.map(s => {
+            let bgcolor = "";
             const label = statNames[s.stat.name] || s.stat.name;
             const value = s.base_stat;
+            if (value <= 29) {
+                bgcolor = "#f34444"
+            } else if (value >= 30 && value <= 59) {
+                bgcolor = "#ff7f0f"
+            } else if (value >= 60 && value <= 89) {
+                bgcolor = "#ffdd57"
+            } else if (value >= 90 && value <= 119) {
+                bgcolor = "#a0e515"
+            } else if (value >= 120 && value <= 149) {
+                bgcolor = "#23cd5e"
+            } else if (value >= 150) {
+                bgcolor = "#00c2b8"
+            }
             // Base stats geralmente vão de 1 a ~255; usamos 255 como teto pra barra
             const percent = Math.min((value / 255) * 100, 100);
 
@@ -29,8 +43,8 @@ async function fetchBaseStats(id) {
                 <div class="stat-row">
                     <span class="stat-label">${label}</span>
                     <span class="stat-value">${value}</span>
-                    <div class="stat-bar-bg">
-                        <div class="stat-bar-fill" style="width: ${percent}%;"></div>
+                    <div class="progress stat-bar-bg">
+                        <div class=" progress-bar stat-bar-fill" style="width: ${percent}%; background-color: ${bgcolor}"></div>
                     </div>
                 </div>`;
         }).join('');
@@ -55,7 +69,6 @@ async function fetchPokemonDetail() {
     }
 
     try {
-        // Busca os dados locais (nome, tipo, imagem) que você já tem
         const localRes = await fetch('../data/dex.json');
         const localData = await localRes.json();
         const entry = localData.pokemon_entries.find(
