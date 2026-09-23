@@ -25,13 +25,19 @@ function createPokeLine(entry) {
         </a>`;
 }
 
-const form = document.getElementById('form');
-const modal = document.getElementById('modalRelatar');
+const botao = document.getElementById('enviar');
+const descricao = document.getElementById('descricao');
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
+botao.addEventListener('click', function() {
 
-    return alert('Obrigado pela sua contibuição!');
+    if (descricao.value.trim() === '') {
+        alert('Erro, relato não contêm conteúdo.');
+        return;
+    }
+
+    alert('Obrigado pela sua contribuição!');
+
+    descricao.value = '';
 });
 
 const pesquisa = document.getElementById('pesquisa');
