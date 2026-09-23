@@ -25,10 +25,10 @@ function createPokeLine(entry) {
         </a>`;
 }
 
-const botao = document.getElementById('enviar');
+const btnEnvio = document.getElementById('enviar');
 const descricao = document.getElementById('descricao');
 
-botao.addEventListener('click', function() {
+btnEnvio.addEventListener('click', function() {
 
     if (descricao.value.trim() === '') {
         alert('Erro, relato não contêm conteúdo.');
@@ -38,6 +38,15 @@ botao.addEventListener('click', function() {
     alert('Obrigado pela sua contribuição!');
 
     descricao.value = '';
+});
+
+const btnScroll = document.getElementById('scrollBack');
+
+btnScroll.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 });
 
 const pesquisa = document.getElementById('pesquisa');
